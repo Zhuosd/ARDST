@@ -5,14 +5,8 @@
 
 
 ## Abstract
-The advancement of intelligent systems, particularly in domains like natural language processing and autonomous driving, has been primarily driven by deep neural networks (DNNs).
-  However, these systems exhibit vulnerability to adversarial attacks that can be both subtle and imperceptible to humans, resulting in arbitrary and erroneous decisions.
-  This susceptibility arises from the hierarchical layer-by-layer learning structure of DNNs, where small distortions can be exponentially amplified.
-  While several defense methods have been proposed, they often necessitate prior knowledge of adversarial attacks to design specific defense strategies.
-  This requirement is often unfeasible in real-world attack scenarios. In this paper, we introduce a novel learning model, termed "immune" learning, known as \emph{Adversarial-Resilient Deep Symbolic Tree} (ARDST), from a neuro-symbolic perspective.
-  The ARDST model is semi-parametric and takes the form of a tree, with logic operators serving as nodes and learned parameters as weights of edges.
-  This model provides a transparent reasoning path for decision-making, offering fine granularity, and has the capacity to withstand various types of adversarial attacks, all while maintaining a significantly smaller parameter space compared to DNNs.
-  Our extensive experiments, conducted on three benchmark datasets, reveal that ARDST exhibits a representation learning capability similar to DNNs in perceptual tasks and demonstrates resilience against state-of-the-art adversarial attacks.
+The advancement of intelligent systems, particularly in domains like natural language processing and autonomous driving, has been primarily driven by deep neural networks (DNNs). However, these systems exhibit vulnerability to adversarial attacks that can be both subtle and imperceptible to humans, resulting in arbitrary and erroneous decisions. This susceptibility arises from the hierarchical layer-by-layer learning structure of DNNs, where small distortions can be exponentially amplified. While several defense methods have been proposed, they often necessitate prior knowledge of adversarial attacks to design specific defense strategies. This requirement is often unfeasible in real-world attack scenarios. In this paper, we introduce a novel learning model, termed "immune" learning, known as \emph{Adversarial-Resilient Deep Symbolic Tree} (ARDST), from a neuro-symbolic perspective. The ARDST model is semi-parametric and takes the form of a tree, with logic operators serving as nodes and learned parameters as weights of edges. This model provides a transparent reasoning path for decision-making, offering fine granularity, and has the capacity to withstand various types of adversarial attacks, all while maintaining a significantly smaller parameter space compared to DNNs.Our extensive experiments, conducted on three benchmark datasets, reveal that ARDST exhibits a representation learning capability similar to DNNs in perceptual tasks and demonstrates resilience against state-of-the-art adversarial attacks.
+
 ## File
 
 The overall framework of this project is designed as follows
